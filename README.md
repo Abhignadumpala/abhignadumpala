@@ -66,8 +66,8 @@ A self-hosted, production-style deployment — from scratch, on real hardware, n
 
 **[→ Repo: task-tracker-3tier-devops](https://github.com/Abhignadumpala/task-tracker-3tier-devops)**
 **[→ Blog: Docker & Kubernetes in Action](https://mydevopsplaybook.hashnode.dev)**
+**[→ LinkedIn: Part 1 — Docker, DevOps & Kubernetes](https://www.linkedin.com/posts/dumpala-abhigna-bbba022a5_docker-devops-kubernetes-ugcPost-7483625564734484481-Zxv9/)**
 
-https://github.com/Abhignadumpala/task-tracker-3tier-devops
 ---
 
 ### 📚 Currently Learning
@@ -88,3 +88,4 @@ https://github.com/Abhignadumpala/task-tracker-3tier-devops
 
 📝 Blog: [mydevopsplaybook.hashnode.dev](https://mydevopsplaybook.hashnode.dev)
 🐙 GitHub: [@Abhignadumpala](https://github.com/Abhignadumpala)
+🔗 LinkedIn: [dumpala-abhigna](https://www.linkedin.com/in/dumpala-abhigna-bbba022a5/)
