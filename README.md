@@ -67,6 +67,7 @@ A self-hosted, production-style deployment — from scratch, on real hardware, n
 **[→ Repo: task-tracker-3tier-devops](https://github.com/Abhignadumpala/task-tracker-3tier-devops)**
 **[→ Blog: Docker & Kubernetes in Action](https://mydevopsplaybook.hashnode.dev)**
 
+https://github.com/Abhignadumpala/task-tracker-3tier-devops
 ---
 
 ### 📚 Currently Learning
