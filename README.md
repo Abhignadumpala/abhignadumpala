@@ -53,6 +53,23 @@ Hands-on projects covering core AWS services:
 
 ---
 
+### 📝 Blog & Writing
+
+**AWS Deep Dive**
+- [Understanding Amazon EBS (Elastic Block Store) — Simple Guide](https://aws-deep-dive.hashnode.dev/understanding-amazon-ebs-elastic-block-store-simple-guide)
+- [Boost EC2 Storage: Create and Attach EBS Volumes (Step by Step)](https://aws-deep-dive.hashnode.dev/boost-ec2-storage-create-and-attach-ebs-volumes-step-by-step)
+
+**Kubernetes**
+- [Understanding Kubernetes Architecture (LinkedIn)](https://www.linkedin.com/posts/dumpala-abhigna-bbba022a5_understanding-kubernetes-architecture-share-7448454485183647744-HMIA/)
+- [Kubernetes StatefulSets vs Deployments — Theory Overview](https://kubernetes-statefulset-vs-deployment.hashnode.dev/understanding-kubernetes-statefulsets-and-how-they-differ-from-deployments-theory-overview)
+- [Kubernetes Hands-On: Deployment vs StatefulSet on Amazon EKS](https://understanding-kubernetes-statefulset.hashnode.dev/kubernetes-hands-on-project-deployment-vs-statefulset-on-amazon-eks)
+- [ImagePullBackOff Explained: Troubleshooting Kubernetes Image Pull Errors](https://troubleshootingk8s.hashnode.dev/imagepullbackoff-explained-troubleshoot-kubernetes-image-pull-errors)
+
+**3-Tier DevOps Platform Series**
+- [Part 1 — Docker, DevOps & Kubernetes (LinkedIn)](https://www.linkedin.com/posts/dumpala-abhigna-bbba022a5_docker-devops-kubernetes-ugcPost-7483625564734484481-Zxv9/)
+
+---
+
 ### 🌱 Currently Building
 
 **3-Tier DevOps Platform on Bare-Metal Kubernetes**
@@ -66,7 +83,6 @@ A self-hosted, production-style deployment — from scratch, on real hardware, n
 
 **[→ Repo: task-tracker-3tier-devops](https://github.com/Abhignadumpala/task-tracker-3tier-devops)**
 **[→ Blog: Docker & Kubernetes in Action](https://mydevopsplaybook.hashnode.dev)**
-**[→ LinkedIn: Part 1 — Docker, DevOps & Kubernetes](https://www.linkedin.com/posts/dumpala-abhigna-bbba022a5_docker-devops-kubernetes-ugcPost-7483625564734484481-Zxv9/)**
 
 ---
 
