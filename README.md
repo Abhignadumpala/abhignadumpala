@@ -86,6 +86,32 @@ A self-hosted, production-style deployment — from scratch, on real hardware, n
 
 ---
 
+### 🧪 Hands-On Experience
+
+I build and document real Cloud & DevOps projects rather than just following tutorials — using:
+
+- AWS Management Console
+- AWS CLI
+- Terraform *(currently building this up)*
+- Kubernetes (`kubectl`, `kubeadm`)
+- GitHub Actions & Jenkins
+- Docker
+
+**Hands-on activities included:**
+- Deploying and managing an **EKS cluster** on AWS
+- Building a self-hosted **3-node Kubernetes cluster** from bare metal (Proxmox, `kubeadm`, Flannel CNI)
+- Designing and running a full **CI/CD pipeline** (GitHub Actions, self-hosted runner, Docker Hub)
+- Hosting static websites with **S3** and configuring bucket policies
+- Building event-driven functions with **Lambda**
+- Configuring **VPC** networking — subnets, route tables, security groups
+- Managing **IAM** users, roles, and policies
+- Setting up centralized **monitoring & observability** (Grafana, Prometheus, Loki)
+- Debugging real production-style incidents — DNS crashes, rollout timeouts, misconfigured readiness probes, storage provisioning on bare metal
+
+I continue expanding these skills by building and documenting cloud projects in public GitHub repositories, and writing up what I learn (and break) along the way.
+
+---
+
 ### 📚 Currently Learning
 
 - Terraform (AWS infrastructure as code)
@@ -104,4 +130,3 @@ A self-hosted, production-style deployment — from scratch, on real hardware, n
 
 📝 Blog: [mydevopsplaybook.hashnode.dev](https://mydevopsplaybook.hashnode.dev)
 🐙 GitHub: [@Abhignadumpala](https://github.com/Abhignadumpala)
-🔗 LinkedIn: [dumpala-abhigna](https://www.linkedin.com/in/dumpala-abhigna-bbba022a5/)
