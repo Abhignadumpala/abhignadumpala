@@ -16,7 +16,7 @@
 
 ### 🛠️ Tech Stack
 
-**Cloud:** `AWS` `EKS` `EC2` `VPC` `S3` `Lambda` `IAM` `Route 53` `Proxmox`
+**Cloud:** `AWS` `EKS` `EC2` `VPC` `S3` `Lambda` `IAM` `Proxmox`
 
 **Containers & Orchestration:** `Docker` `Kubernetes` `kubeadm` `Helm`
 
@@ -26,9 +26,11 @@
 
 **Monitoring & Observability:** `Prometheus` `Grafana` `Loki` `Alertmanager`
 
-**Web, Data & Messaging:** `Nginx` `PostgreSQL` `MySQL` `MongoDB` `Redis` `RabbitMQ`
+**Networking & Web:** `DNS` `Route 53` `Nginx` `Reverse Proxy` `Load Balancing`
 
-**Languages & Tools:** `Python` `FastAPI` `Git` `Linux (RHEL, Ubuntu)` `systemd`
+**Data & Messaging:** `PostgreSQL` `MySQL` `MongoDB` `Redis` `RabbitMQ`
+
+**Languages & Tools:** `Python` `FastAPI` `Git` `GitHub` `Linux (RHEL, Ubuntu)` `systemd`
 
 **Identity & Access:** `Azure Active Directory` `Azure AD Connect` `RBAC` `Conditional Access`
 
