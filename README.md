@@ -70,19 +70,36 @@ Hands-on projects covering core AWS services:
 
 ---
 
-### 🌱 Currently Building
+### 🏗️ Projects
 
-**3-Tier DevOps Platform on Bare-Metal Kubernetes**
-A self-hosted, production-style deployment — from scratch, on real hardware, not managed cloud K8s.
+**1. [RoboShop on AWS — Microservices E-Commerce Deployment](https://github.com/Abhignadumpala/roboshop-aws-microservices)** · *Oct 2026*
+An online robot store deployed as **11 services on 11 EC2 instances**, manually by design, as the baseline for automating it.
+
+- 🗄️ MongoDB, Redis, MySQL, RabbitMQ + 6 microservices in 4 languages (Node.js, Java/Spring Boot, Python, Go) + Nginx reverse proxy
+- 🌐 Service discovery with **Route 53** private DNS records on my own domain, no hard-coded IPs
+- 🔐 11 security groups with least-privilege SG-to-SG rules; every app runs as a non-root `systemd` service
+- 🔍 Debugged a Redis connection failure (open-then-closed connection → `protected-mode`) with SG, DNS and port all healthy
+- 📦 Resilience test: stopped the dispatch service mid-order; the order waited in RabbitMQ and was processed on recovery, **zero orders lost**
+
+**2. [3-Tier DevOps Platform on Bare-Metal Kubernetes](https://github.com/Abhignadumpala/task-tracker-3tier-devops)** · *Jul–Aug 2026* · ✅ Completed
+React → FastAPI → PostgreSQL, deployed to a self-hosted Kubernetes cluster, from scratch, on real hardware, not managed cloud K8s.
 
 - 🖥️ 3-node cluster (1 master, 2 workers) on a Dell OptiPlex 7050 Micro via Proxmox, bootstrapped with `kubeadm` + Flannel CNI
-- 🔄 Full CI/CD: GitHub Actions → Docker Hub → automated rollout, running on a self-hosted runner
-- 📦 `local-path-provisioner` for bare-metal storage (no cloud StorageClass out of the box — had to solve that myself)
-- 📈 Loki + Grafana for logs and metrics, used to debug real production-style incidents
-- 📚 Every debugging session — kubeadm token expiry, DNS crashes, rollout timeouts, CI path issues — written up as a blog post
+- 🔄 Full CI/CD: GitHub Actions (pytest against a Postgres service) → Docker Hub → automated rollout through a self-hosted runner inside the homelab
+- 📦 `local-path-provisioner` for bare-metal storage (no cloud StorageClass out of the box)
+- 🔐 Only the frontend exposed (NodePort); backend and Postgres internal (ClusterIP); non-root containers, probes, resource limits, 2 backend replicas
+- 📈 Loki + Grafana (Helm) for centralized logs — caught a hidden Postgres readiness-probe bug (`pg_isready` without `-d`) that `kubectl get pods` showed as healthy
+- 📚 Debugging documented end to end: kubeadm token expiry, rollout timeouts, CI path issues, probe misconfiguration
+- 🧭 Planned next: Ingress-nginx, MetalLB, HA control plane, Argo CD (GitOps), Prometheus metrics, HPA
 
-**[→ Repo: task-tracker-3tier-devops](https://github.com/Abhignadumpala/task-tracker-3tier-devops)**
-**[→ Blog: Docker & Kubernetes in Action](https://mydevopsplaybook.hashnode.dev)**
+**3. [Secure DevSecOps Pipeline & Monitoring](https://github.com/Abhignadumpala/devops-interview-prep)** · *Oct 2026*
+- 🔄 GitHub Actions: lint → test → build → deploy, matrix tests (2 OS × 3 Node versions, parallel: **32 s vs 120 s** sequential), npm caching, CodeQL SAST, Dependabot, required status checks
+- 🧩 Composite actions and reusable workflows; self-hosted runner on EC2
+- 📈 Prometheus + Grafana + Node Exporter, EC2 service discovery via IAM role, Alertmanager CPU alert fired under load
+
+**4. [DevOps Notes](https://github.com/Abhignadumpala/devops-notes)** — day-by-day fundamentals: Linux, Nginx reverse proxy & load balancing, DNS on my own domain (Route 53), 3-tier deployments, databases and message queues
+
+📝 **Blog:** [Docker & Kubernetes in Action](https://mydevopsplaybook.hashnode.dev)
 
 ---
 
