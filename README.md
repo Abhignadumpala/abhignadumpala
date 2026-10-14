@@ -132,8 +132,11 @@ I continue expanding these skills by building and documenting cloud projects in 
 ### ✅ Recently Completed
 
 - **Terraform** — AWS infrastructure as code
-- **CKA preparation** — killer.sh mock exams
 - **Deeper AWS** — IAM policies/roles/STS, VPC, EC2, S3, Lambda, CloudFormation
+
+### 📚 Currently Learning
+
+- **CKA** — practicing with killer.sh mocks
 
 ---
 
