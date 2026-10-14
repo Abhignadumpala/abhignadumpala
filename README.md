@@ -134,8 +134,9 @@ I continue expanding these skills by building and documenting cloud projects in 
 - **Terraform** — AWS infrastructure as code
 - **Deeper AWS** — IAM policies/roles/STS, VPC, EC2, S3, Lambda, CloudFormation
 
-### 📚 Currently Learning
+### 🌱 Currently
 
+- **Building hands-on projects** and documenting each one as I go, setup, architecture, and every issue I debug, in public repos
 - **CKA** — practicing with killer.sh mocks
 
 ---
