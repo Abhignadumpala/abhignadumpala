@@ -9,7 +9,7 @@
 - 🧱 Managing infrastructure as code with **Terraform**, and configuration with **Ansible**.
 - 📊 Monitoring & observability with **Grafana, Prometheus, and Loki** — used them to catch and fix real production-style bugs.
 - 📝 Documenting the build process (and every bug I broke and fixed) on my blog: **Docker & Kubernetes in Action**.
-- 🎯 Currently working toward AWS SAA-C03 → HashiCorp Terraform Associate → CKA.
+- 🎯 Currently working toward AWS SAA-C03 → HashiCorp Terraform Associate.
 - 🌱 6 years in IT, based in Portugal, looking for **project-based Cloud & DevOps roles**.
 
 ---
@@ -137,7 +137,6 @@ I continue expanding these skills by building and documenting cloud projects in 
 ### 🌱 Currently
 
 - **Building hands-on projects** and documenting each one as I go, setup, architecture, and every issue I debug, in public repos
-- **CKA** — practicing with killer.sh mocks
 
 ---
 
