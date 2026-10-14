@@ -109,7 +109,7 @@ I build and document real Cloud & DevOps projects rather than just following tut
 
 - AWS Management Console
 - AWS CLI
-- Terraform *(currently building this up)*
+- Terraform
 - Kubernetes (`kubectl`, `kubeadm`)
 - GitHub Actions & Jenkins
 - Docker
@@ -129,11 +129,11 @@ I continue expanding these skills by building and documenting cloud projects in 
 
 ---
 
-### 📚 Currently Learning
+### ✅ Recently Completed
 
-- Terraform (AWS infrastructure as code)
-- CKA — practicing with killer.sh mocks
-- Deeper AWS: IAM policies/roles/STS, VPC, EC2, S3, Lambda, CloudFormation
+- **Terraform** — AWS infrastructure as code
+- **CKA preparation** — killer.sh mock exams
+- **Deeper AWS** — IAM policies/roles/STS, VPC, EC2, S3, Lambda, CloudFormation
 
 ---
 
